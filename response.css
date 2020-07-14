@@ -1,0 +1,152 @@
+﻿/*BASE DESIGNS*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
+body
+   {
+    font-size:15px;
+    width:80%;
+    margin:auto;
+    font-family:Poppins, sans-serif;
+    
+    
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+}
+
+
+
+.imf {
+       font-size:large;
+       font-style:normal;
+       font-weight:100;
+
+}
+#iff {
+      font-size:large;
+      font-style:normal;
+      font-weight:bold;
+  }
+/*DESIGN FOR MOBILE AND TABLET*/
+@media (min-width:375px) and (max-width:1199px) {
+
+
+    body {
+         background-color: lightgray;
+
+    }
+     #main container {
+                           display:flex;
+                           flex-direction:column;
+                           justify-content:space-evenly;
+                           
+                }
+
+                       #item1 {
+    border-top:2px solid hsl(180, 62%, 55%);
+    line-height:1;
+       }
+
+
+    #item2 {
+        border-top: 2px solid hsl(0, 78%, 62%);
+        line-height: 1;
+    }
+    #item3 {
+
+        border-top:2px solid hsl(34, 97%, 64%);
+        line-height:1;
+         }
+
+
+      #item4 {
+
+           border-top:2px solid hsl(212, 86%, 64%);
+           line-height:1;
+           }
+       #item1, #item2, #item3, #item4 {
+                                 background-color:white;
+                                 width:85%;
+                                 margin:auto;
+                                 font-size:x-small;
+
+       }
+
+    #secitem1, #Secitem2, #Secitem3, #Secitem4 {
+
+        margin-left:3%;
+
+
+
+    }
+
+
+    img {
+
+        margin-left:195px;
+    }
+
+
+
+}
+
+/*DESIGN FOR LAPTOP*/
+
+@media (min-width:1200px) {
+
+
+    body {
+        background-color: lightgray;
+    }
+
+    #main container {
+        display: flexbox;
+        flex-direction:row;
+        flex-wrap:nowrap;
+       
+    }
+
+
+    #item1, #item2, #item3, #item4 {
+        background-color: white;
+        width: 40%;
+        margin: auto;
+        font-size: x-small;
+    }
+
+      #item1 {
+    border-top:2px solid hsl(180, 62%, 55%);
+    line-height:1;
+    
+       }
+
+
+    #item2 {
+        border-top: 2px solid hsl(0, 78%, 62%);
+        line-height: 1;
+        
+    }
+    #item3 {
+
+        border-top:2px solid hsl(34, 97%, 64%);
+        line-height:1;
+        
+         }
+
+
+      #item4 {
+
+           border-top:2px solid hsl(212, 86%, 64%);
+           line-height:1;
+           
+           }
+
+    img {
+        margin-left:90%;
+    }
+
+
+}
